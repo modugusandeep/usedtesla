@@ -1,0 +1,120 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#modelSelect{
+    width: 250px;
+    
+    height: 40px;
+    font-size: 20px;
+}
+.home-container{
+    display: flex;
+
+    height: cover;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.form-container{
+    background-image: url("https://res.cloudinary.com/dtor1u6gh/image/upload/v1691741802/WhatsApp_Image_2023-08-11_at_13.41.27_gqwncq.jpg");
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px){
+   .home-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+  
+   
+   .kk{
+    margin-bottom: 15px;
+   }
+   .search-button{
+    width: 300px;
+    
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(245, 91, 91);
+    color: #fff;
+   }
+   .option{
+    font-size: 16px;
+   }
+   .heading-element{
+    font-size: 18px;
+   }
+   .para-element{
+    font-size: 14px;
+   }
+   #modelSelect{
+        font-size: 15px;
+   }
+}
+.option{
+    font-size: 20px;
+}
+.search-button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(224, 64, 64);
+    color: #fff;
+}
+.image-width{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+}
+.image-container{
+    width: cover;
+    padding: 20px;
+    background-color: #e2dddd;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.images-container{
+    display: flex;
+
+    margin-bottom: 150px;
+}
+.slick-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    height: cover;
+
+}
+@media screen and (max-width: 768px){
+    .slick-container{
+        display: none;
+    }
+    .mobail-slick-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.right-button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+
+}
+@media screen and (min-width:768px){
+    .mobail-slick-container{
+        display: none;
+      }
+}

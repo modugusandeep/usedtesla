@@ -1,0 +1,56 @@
+.sort-by-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25vw;
+
+}
+.sort-by{
+    font-size: 18px;
+    font-family: "roboto";
+    padding-right:15px;
+    padding-left:15px;
+}
+.products-filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.filter-arrange{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(219, 223, 226);
+    width: 25vw;
+    max-height: 600px;
+}
+@media screen and (max-width: 768px){
+   
+    .sort-by-container{
+        display: none;
+       
+    }
+}
+.ul-list{
+    list-style-type: none;
+}
+.empty-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    min-width: 70vw;
+}
+@media screen and (max-width: 768px){
+    .products-filters{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .filter-arrange{
+        width: 100vw;
+        max-height: 500px;
+    }
+}

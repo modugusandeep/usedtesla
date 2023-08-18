@@ -1,0 +1,22 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(30, 28, 28);
+}
+.link-item{
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+}
+.link-item:hover{
+    color: rgb(212, 115, 80);
+}
+@media screen and (max-width: 768px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+}

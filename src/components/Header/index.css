@@ -1,0 +1,76 @@
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.nav-menu{
+    list-style-type: none;
+
+    display: flex;
+}
+.logo-img{
+    text-decoration: none;
+    color: red;
+}
+
+.nav-link{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link:hover{
+    color: rgb(225, 101, 19);
+}
+.blog-title{
+    color: red;
+}
+@media screen and (min-width: 768px){
+    .mobail-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .mobail-menu{
+        color: #fff;
+    }
+    .nav-menu{
+        display: none;
+        color: black !important;
+    }
+    .mobail-nav-menu{
+        list-style-type: none;
+        
+    }
+    .nav-link{
+        color: black;
+        font-size: 18px;
+        font-style: oblique;
+        
+    }
+    .nav-link:hover{
+        color: rgb(225, 101, 19);
+    }
+   .mobail-nav-menu{
+    position: fixed;
+   }  
+}
+
+.mobail-para {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #343333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+  }
+.mobail-menu.active .mobail-route{
+    color: #fff;
+}
+ 
